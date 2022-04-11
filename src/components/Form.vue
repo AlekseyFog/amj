@@ -66,14 +66,14 @@ export default {
 
 <style scoped>
 .callmodal {
-  margin-top: 50px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #F8F9FA;
   border-radius: 10px;
-  padding: 30px;
+  padding: 50px;
 }
 .callmodal__header{
   margin-bottom: 30px;
@@ -85,6 +85,7 @@ export default {
   justify-content: center;
 }
 .callmodal__form_item{
+  margin-bottom: 30px;
   border-radius: 5px;
   border: 1px solid gray;
   padding: 5px 10px;

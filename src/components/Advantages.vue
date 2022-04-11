@@ -88,7 +88,7 @@ export default {
   border-radius: 10px;
   font-family: 'Raleway', sans-serif;
   max-width: 300px;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 20px;
 }
 .advantages__services_item_icon img{

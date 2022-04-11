@@ -74,6 +74,11 @@ export default {
   font-weight: bold;
   margin-bottom: 30px;
 }
+.a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .portfolio__slider span {
   padding: 0 100px;
@@ -87,6 +92,7 @@ span{
 
 .slider{
   width: 100%;
+  max-width: 1488px;
   min-height: calc(100vh - 200px);
   background: url("~@/assets/slider/Masthead.png") no-repeat center;
   padding: 120px 0 0;
@@ -133,5 +139,17 @@ span{
   font-size: 22px;
   transition: 0.3s all ease-in-out;
   cursor: pointer;
+}
+
+@media (max-width: 1045px) {
+  .slider__text{
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .slider__text{
+    margin-top: 0;
+    max-width: 100%;
+  }
 }
 </style>

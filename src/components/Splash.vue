@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid splash">
     <div class="row">
-      <div class="col-12 col-md-4 splash__image">
+      <div class="col-12 col-lg-6 splash__image">
         <img src="~@/assets/slider/About-Suction.jpg" alt="about">
       </div>
-      <div class="col-12 col-md-6 splash__text">
+      <div class="col-12 col-lg-6 splash__text">
         <div class="splash__text_header mb-3">
           We Provide Best Quality
           Services For Many Years
@@ -30,11 +30,11 @@ export default {
 .splash {
   margin-top: 70px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
-}
-
-.splash__text{
-  margin: auto;
+  max-width: 1488px;
+  background: #F8F9FA;
 }
 
 .splash__text_header {
@@ -44,5 +44,13 @@ export default {
 
 .splash__text_text {
   font-size: 20px;
+}
+.splash__image img{
+  width: 100%;
+}
+@media (max-width: 992px){
+  .splash__text{
+    margin-top: 30px;
+  }
 }
 </style>
