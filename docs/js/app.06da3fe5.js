@@ -212,7 +212,7 @@
   }, "6d52": function (e, t, a) {
   }, "85ec": function (e, t, a) {
   }, ab0f: function (e, t, a) {
-    e.exports = a.p + "/amj/img/About-Suction.c6e79227.jpg"
+    e.exports = a.p + "amj/img/About-Suction.c6e79227.jpg"
   }, aba0: function (e, t, a) {
   }, c534: function (e, t, a) {
     "use strict";
