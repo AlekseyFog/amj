@@ -6,7 +6,7 @@
     <div class="advantages__services row mt-5">
       <div class="advantages__services_item col-12 col-md-4">
         <div class="advantages__services_item_icon">
-          <img src="~@/assets/icons/wind.png" alt="wind">
+          <img src="public/icons/wind.png" alt="wind">
         </div>
         <div class="advantages__services_item_header">
           Dry Screeding
@@ -19,7 +19,7 @@
       </div>
       <div class="advantages__services_item col-12 col-md-4">
         <div class="advantages__services_item_icon">
-          <img src="~@/assets/icons/thermo.png" alt="thermo">
+          <img src="public/icons/thermo.png" alt="thermo">
         </div>
         <div class="advantages__services_item_header">
           Insulation
@@ -32,7 +32,7 @@
       </div>
       <div class="advantages__services_item col-12 col-md-4">
         <div class="advantages__services_item_icon">
-          <img src="~@/assets/icons/drop.png" alt="drop">
+          <img src="public/icons/drop.png" alt="drop">
         </div>
         <div class="advantages__services_item_header">
           Liquid Screeding

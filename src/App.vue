@@ -3,7 +3,7 @@
     <div class="navb">
       <div class="navbar__logo">
         <img
-           src="@/assets/logo.png"
+           src="public/logo.png"
            alt="logo"
         >
       </div>
@@ -27,7 +27,7 @@
       >
         <img
            alt="menu"
-           src="@/assets/menu.png"
+           src="public/menu.png"
         >
       </div>
     </div>
